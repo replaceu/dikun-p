@@ -12,8 +12,8 @@ import xlrd
 # 一个根据pandas自动识别type来设定table的type
 try:
     db = pymysql.connect(host="127.0.0.1",
-                         user="root",
-                         passwd="19940818zj",
+                         user="******",
+                         passwd="******",
                          db="test",
                          charset='utf8')
 except:
