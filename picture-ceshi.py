@@ -8,7 +8,7 @@ Created on Tue Mar 31 10:03:13 2020
 import xlsxwriter
 import pandas as pd
 
-workbook = xlsxwriter.Workbook('C://Users//Admin//Desktop//pict.xlsx') #创建一个excel文件
+workbook = xlsxwriter.Workbook('********') #创建一个excel文件
 worksheet = workbook.add_worksheet('TEST') #在文件中创建一个名为TEST的sheet,不加名字默认为sheet1
 worksheet.set_column('A:D',25)
 worksheet.set_row(80)
