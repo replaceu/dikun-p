@@ -13,7 +13,7 @@ worksheet = workbook.add_worksheet('TEST') #在文件中创建一个名为TEST�
 worksheet.set_column('A:D',25)
 worksheet.set_row(80)
 
-kind = pd.read_excel(r'C:\Users\Admin\Desktop\kind.xlsx')
+kind = pd.read_excel(*********')
 kind = pd.DataFrame(kind['kind'])
 kind = kind['kind'].tolist()
 #kind=['4349','4379','4445','4433','4512','4349','4349','4680','4909','5226']
